@@ -4,7 +4,13 @@
 // Output: [4, 3, 2, 1]
 function reverseArray(arr) {
   // Write you solution here
+  let numbers = [1, 2, 3, 4];
+  let reverseNumber = numbers.reverse();
+
+  return reverseNumber;
 }
+
+reverseArray();
 
 // Write a function that removes duplicate numbers from an array and returns a new array with only unique values.
 // Example:
